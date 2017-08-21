@@ -1,13 +1,14 @@
 # DistributedQueue
 A naive distributed queue using couchbase
 
-**idea from the  professor, and online help like **
+**[idea from the  professor, and online help like]**
  1. https://blog.couchbase.com/using-autonumber-in-couchbase/
  2. https://developer.couchbase.com/documentation/server/3.x/developer/java-2.1/documents-atomic.html
  3. https://stackoverflow.com/questions/22032172/how-to-use-couchbase-as-fifo-queue
  
- **#Design 
- Queue is a FIFO data structure. Documents inserted first will be deleted first**
+ ** 
+ Queue is a FIFO data structure. Documents inserted first will be deleted first
+ Front and rear pointers are the document ID**
  
  The idea is operations in Couchbase are atomic operation.  It has one operation called Counter, which will create 
  document counter. Implement a queue with two pointer rear and front. Both of them are considered as two documents 

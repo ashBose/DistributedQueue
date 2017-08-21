@@ -1,7 +1,7 @@
 # DistributedQueue
 A naive distributed queue using couchbase
 
-**#idea from the  professor, and online help like **
+**idea from the  professor, and online help like **
  1. https://blog.couchbase.com/using-autonumber-in-couchbase/
  2. https://developer.couchbase.com/documentation/server/3.x/developer/java-2.1/documents-atomic.html
  

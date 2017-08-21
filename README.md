@@ -1,11 +1,13 @@
 # DistributedQueue
 A naive distributed queue using couchbase
 
+[MAVEN]
 <dependency>
    <groupId>com.couchbase.client</groupId>
    <artifactId>java-client</artifactId>
    <version>2.4.7</version>
 </dependency>
+
 
 **[idea from the  professor, and online help like]**
  1. https://blog.couchbase.com/using-autonumber-in-couchbase/

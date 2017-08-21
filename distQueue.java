@@ -24,11 +24,6 @@ public class distQueue  {
     }
 
     void push(){
-        //int index = bucket.incr(queue + ":tail");
-        //bucket.set(queue + ":item:" + index, value);
-        // long nextIdNumber = bucket.counter(queue, 1,1).content();
-        //System.out.println(doc.content());
-
         int val = count++; // count is just any variable
         final JsonObject object = JsonObject.empty()
                 .put("id", val)

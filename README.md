@@ -1,7 +1,6 @@
 # DistributedQueue
 A naive distributed queue using couchbase
 
-**Maven**
 <dependency>
    <groupId>com.couchbase.client</groupId>
    <artifactId>java-client</artifactId>

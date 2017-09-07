@@ -12,7 +12,6 @@ A naive distributed queue implementation using Couchbase
 **[idea from the  professor, and online help like]**
  1. https://blog.couchbase.com/using-autonumber-in-couchbase/
  2. https://developer.couchbase.com/documentation/server/3.x/developer/java-2.1/documents-atomic.html
- 3. https://stackoverflow.com/questions/22032172/how-to-use-couchbase-as-fifo-queue
  
  **Queue is a FIFO data structure. Documents inserted first will be deleted first
  Front and rear pointers are the document ID**
